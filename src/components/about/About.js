@@ -10,10 +10,20 @@ const About = () => {
               Let me tell you something about my Lagarta
           </h3>
           <p> 
+          Diseñar prototipos con conocimiento básicos de UX para una web. 
+          Frameworks y SASS.
+          Crear y realizar mantenimiento a una página y aplicación web. 
+          Asesoramiento a lo que el cliente necesite.
+          Optimizar estilos de páginas web. Trabajo en equipo, usando un controlador de versiones y manejo de repositorio. Manejar un servidor y configurarlos con el dominio al que debe apuntar. 
+          Conocimientos básicos de SEO y Seguridad Web.
+
+          JavaScript
+
+          React Js
+
           </p>
       </div>
       <div className='about-img'> 
-       <img src="https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg" alt="about" />
 
       </div>
 
