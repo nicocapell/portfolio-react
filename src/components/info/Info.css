@@ -13,15 +13,53 @@
     height: 100%;
   }
   
+  .info > h2 {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-right: 15px;
+
+  }
+  
+
+  
+  .info > img { 
+    cursor: pointer;
+    margin: 6px 6px 6px 6px;
+    border-bottom: 4px solid transparent;
+    width: 50px;
+    height: 50px;
+  }
+
+  .info > img:hover { 
+    border-color: black;
+    transition: all 0.3s ease-out;
+  }
+
+  
+
+
   @media only screen and (max-width: 960px) {
     .info-container {
       height: 200px;
       width: 100%;
     }
   
-    .info > h1 {
+    .info > h2 {
       text-align: center;
       font-size: 25px;
+    }
+
+
+    
+    .info-hab {
+      width: 50%;
+      margin: 0 auto;
+      padding: 40px 20px 50px 20px;
+    }
+  
+    .info-hab > h2 {
+      font-size: 20px;
+      text-align: center;
     }
   }
   

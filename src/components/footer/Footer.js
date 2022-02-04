@@ -10,12 +10,12 @@ const Footer = () => {
       </div>
       <div className="footer-contact">
         <h3>Contáctame</h3>
-        <p>And let's get down to work</p>
+        <p>nicocapell@gmail.com</p>
       </div>
       <div className="footer-sns">
         <div className="design-by">Design By Capell</div>
         <div className="sns-links">
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/nicol%C3%A1s-gabriel-capell-4220751b4/" target="_blank" rel="noreferrer">
             <i className="fab fa-linkedin linkedin"></i>
           </a>
           <a href="https://twitter.com" target="_blank" rel="noreferrer">

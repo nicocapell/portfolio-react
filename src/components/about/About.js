@@ -1,5 +1,7 @@
 import React from 'react';
-import './About.css'
+import './About.css';
+
+
 
 const About = () => {
   return (
@@ -7,7 +9,7 @@ const About = () => {
   <div className='about-container'>
       <div className='about-desc'>
           <h3>
-              Let me tell you something about my Lagarta
+              Algo sobre mí
           </h3>
           <p> 
           Diseñar prototipos con conocimiento básicos de UX para una web. 
@@ -23,9 +25,44 @@ const About = () => {
 
           </p>
       </div>
-      <div className='about-img'> 
+
+
+      <div className='about-edu'>
+          <h2>Educación</h2>
+          <ul>
+              <li>
+              Instituto Privado Diocesano Dr Alexis Carrel. Bachiller en Economía y Administración.
+2011-2016
+              </li>
+              <li>
+              Universidad Nacional de Córdoba. 
+              Licenciatura en Cine y Televisión
+2017-Actualidad
+              </li>
+          </ul>
+      </div>
+
+
+      <div className='about-certi' > 
+
+      <h2>Certificaciones</h2>
+
+      <ul> 
+
+        <li>Desarrollo web. Coderhouse </li>
+        <li>JavaScript. Coderhouse</li>
+        <li>ReactJs. Corderhouse</li>
+        <li> Aprende SCRUM. LinkedIn Learning </li>
+        <li> GitHub para programadores. LinkedIn Learning </li>
+        <li> JavaScript esencial. LinkedIn Learning </li>
+        <li> Fundamentos del desarrollo web: Full Stack o Front-end. LinkedIn Learning </li>
+
+      </ul>
+      
 
       </div>
+
+  
 
 
   </div>

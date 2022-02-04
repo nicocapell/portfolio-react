@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     width: 55%;
-    padding: 0 100px 0 100px;
+    padding: 0 50px 0 100px;
   }
   
   .about-desc > h3 {
@@ -22,14 +22,34 @@
   .about-desc > p {
     line-height: 1.5;
   }
-  
-  .about-img {
-    width: 45%;
-    display: flex;
-    align-self: center;
-    overflow: hidden;
+
+  .about-edu { 
+    width: 40%;
+    padding: 10px 100px 0 0;
+    margin-left: 5%;
   }
-  
+
+
+  .about-edu > h2 {
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+
+  .about-certi { 
+    width: 40%;
+    padding: 10px 100px 0 0;
+  }
+
+
+  .about-certi > h2 {
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+
+
+
+
+
   @media only screen and (max-width: 960px) {
     .about-container {
       flex-direction: column;
@@ -47,15 +67,28 @@
       font-size: 20px;
       text-align: center;
     }
-  
-    .about-img {
-      width: 100%;
-      margin-bottom: 50px;
-      
+    .about-edu {
+      width: 50%;
+      margin: 0 auto;
+      padding: 40px 20px 50px 20px;
     }
   
-    .about-img > img {
-      width: 100%;
+    .about-edu > h2 {
+      font-size: 20px;
+      text-align: center;
     }
+
+    .about-certi {
+      width: 50%;
+      margin: 0 auto;
+      padding: 40px 20px 50px 20px;
+    }
+  
+    .about-certi > h2 {
+      font-size: 20px;
+      text-align: center;
+    }
+
+  
   }
   
