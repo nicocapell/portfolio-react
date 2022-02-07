@@ -11,6 +11,7 @@ import npmIcon from "../../media/icons/npm.svg";
 import premiereIcon from "../../media/icons/premiere.svg";
 import reactIcon from "../../media/icons/react.svg";
 import sassIcon from "../../media/icons/sass.svg";
+import vscIcon from "../../media/icons/vsc.png"
 
 
 const Info = () => {
@@ -19,19 +20,21 @@ const Info = () => {
 
         
         <div className='info'>
-             
-<img src={cssIcon} alt="cssIcon" />CSS
-<img src={htmlIcon} alt="htmlIcon" /> HTML
+<img src={vscIcon} alt="vscIcon"  />VSC            
+<img src={cssIcon} alt="cssIcon"  />CSS
+<img src={htmlIcon} alt="htmlIcon"  /> HTML
 <img src={gitIcon} alt="gitIcon" /> Git
-<img src={bootstrapIcon} alt="bootstrapIcon" />Bootstrap
-<img src={firebaseIcon} alt="firebaseIcon" /> Firebase
-<img src={jqueryIcon} alt="jqeryIcon" /> JQuery
-<img src={jsIcon} alt="jsIcon" /> JavaScript
-<img src={npmIcon} alt="npmIcon" /> Npm 
-<img src={premiereIcon} alt="premiereIcon" /> Premiere
-<img src={reactIcon} alt="reactIcon" /> ReactJs
+<img src={bootstrapIcon} alt="bootstrapIcon"/>Bootstrap
+<img src={firebaseIcon} alt="firebaseIcon"/> Firebase
+</div>
+<div className="info2">
+<img src={jqueryIcon} alt="jqeryIcon"/> JQuery
+<img src={jsIcon} alt="jsIcon"/> JavaScript
+<img src={npmIcon} alt="npmIcon"/> Npm 
+<img src={premiereIcon} alt="premiereIcon"/> Premiere
+<img src={reactIcon} alt="reactIcon"/> ReactJs
  <img src={sassIcon} alt="sassIcon" /> SASS
-      </div>
+ </div>
       </div>
   );
 };
