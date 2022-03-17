@@ -12,16 +12,13 @@ const About = () => {
               Algo sobre mí
           </h3>
           <p> 
-          Diseñar prototipos con conocimiento básicos de UX para una web. 
-          Frameworks y SASS.
-          Crear y realizar mantenimiento a una página y aplicación web. 
-          Asesoramiento a lo que el cliente necesite.
-          Optimizar estilos de páginas web. Trabajo en equipo, usando un controlador de versiones y manejo de repositorio. Manejar un servidor y configurarlos con el dominio al que debe apuntar. 
+
+          Front End Developer certificado de la Carrera de Desarrollo Frontend React en Coderhouse. Capacidad para 
+          diseñar prototipos con conocimiento básicos de UX para una web. Conocimientos avanzados de vídeo y edición con Adobe Premiere.  CSS, Frameworks y SASS.  
+          JavaScript y React Js. Desarrollar, realizar mantenimiento y optimizar estilos de aplicaciones web. Git y GitHub. Manejar un servidor y configurarlos con el dominio al que debe apuntar. 
           Conocimientos básicos de SEO y Seguridad Web.
-
-          JavaScript
-
-          React Js
+          Asesoramiento a lo que el cliente necesite.
+         
 
           </p>
       </div>

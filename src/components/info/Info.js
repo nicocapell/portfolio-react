@@ -5,7 +5,6 @@ import cssIcon from "../../media/icons/css.svg";
 import firebaseIcon from "../../media/icons/firebase.svg";
 import gitIcon from "../../media/icons/git.svg";
 import htmlIcon from "../../media/icons/html.svg";
-import jqueryIcon from "../../media/icons/jquery.svg";
 import jsIcon from "../../media/icons/js.svg";
 import npmIcon from "../../media/icons/npm.svg";
 import premiereIcon from "../../media/icons/premiere.svg";
@@ -28,7 +27,6 @@ const Info = () => {
 <img src={firebaseIcon} alt="firebaseIcon"/> Firebase
 </div>
 <div className="info2">
-<img src={jqueryIcon} alt="jqeryIcon"/> JQuery
 <img src={jsIcon} alt="jsIcon"/> JavaScript
 <img src={npmIcon} alt="npmIcon"/> Npm 
 <img src={premiereIcon} alt="premiereIcon"/> Premiere
