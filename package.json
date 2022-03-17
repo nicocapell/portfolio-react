@@ -2,7 +2,7 @@
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://nicocapell.github.io/portfolio-react",
+  "homepage": "https://nicocapell.github.io/portfolio-react/",
   "dependencies": {
     "@brainhubeu/react-carousel": "^2.0.4",
     "@testing-library/jest-dom": "^5.16.1",
